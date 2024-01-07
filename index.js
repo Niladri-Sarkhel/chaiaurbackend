@@ -3,6 +3,10 @@ const express = require('express')
 const app = express()
 const port = 4000
 
+function f() {
+    console.log("hello world");
+}
+
 const random_user_data = {
     "user": {
         "id": 123,
